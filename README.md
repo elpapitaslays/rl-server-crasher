@@ -29,3 +29,11 @@ This project was created to explore networking concepts, server behavior under e
 ```bash
 git clone https://github.com/your-username/rl-server-crasher.git
 cd rl-server-crasher
+```
+
+> After you have it compile it with:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile main.py
+```

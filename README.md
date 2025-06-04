@@ -34,6 +34,7 @@ cd rl-server-crasher
 > After you have it compile it with:
 
 ```bash
+pip install scapy
 pip install pyinstaller
 pyinstaller --onefile main.py
 ```
